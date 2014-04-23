@@ -4,7 +4,7 @@ Object Oriented Programming Class at CSULB, Spring 2014
 Simulates a BlackJack game, also known as 21. Written on Java.
 
 Menu consists of:
-1. New Deck - creates a deck of playing cards
+1. New Deck
 2. Shuffling
 3. Displaying all cards
 4. Playing BlackJack
@@ -23,6 +23,6 @@ When you start the game, give the player 10 dollars, and before each bet, allow 
 
 
 Things to remember: 
-1. When a card is dealt from the deck, it is logically REMOVED from the deck. 
-2. If there are no more cards in the deck, you must tell the player that the current game cannot continue and he will have to go to the main menu and get a new deck of cards and re-shuffle.
-3. Aces can count as either 1 or 11. So if you have in your hand a 6, 10, Ace, and 3, that can either be 20 or 30. You will want to count it as 20 because 30 means you lose.
+- When a card is dealt from the deck, it is logically REMOVED from the deck. 
+- If there are no more cards in the deck, you must tell the player that the current game cannot continue and he will have to go to the main menu and get a new deck of cards and re-shuffle.
+- Aces can count as either 1 or 11. So if you have in your hand a 6, 10, Ace, and 3, that can either be 20 or 30. You will want to count it as 20 because 30 means you lose.
